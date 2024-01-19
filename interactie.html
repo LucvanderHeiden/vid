@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio: Interactive solar system</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/skins/color-1.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style_switcher.css" />
+    <link rel="icon" type="image/x-icon" href="images/favicon_jupiter.ico" />
+  </head>
+
+  <body class="dark">
+    <!-- Main container start -->
+    <div class="main-container">
+      <!-- Aside start -->
+      <div class="aside">
+        <div class="logo">
+          <a href="index.html">Luc</a>
+        </div>
+        <div class="nav-toggler">
+          <span></span>
+        </div>
+        <ul class="nav">
+          <li>
+            <a href="index.html"><i class="fa fa-home"></i>Home</a>
+          </li>
+          <li>
+            <a href="brussel.html"
+              ><i class="fa fa-bed" aria-hidden="true"></i>Brussel</a
+            >
+          </li>
+          <li>
+            <a href="typografie.html"
+              ><i class="fa fa-keyboard" aria-hidden="true"></i>Typografie</a
+            >
+          </li>
+          <li>
+            <a href="grid.html"
+              ><i class="fa fa-tree" aria-hidden="true"></i>Grid & Kleur</a
+            >
+          </li>
+          <li>
+            <a href="beeldtaal.html"
+              ><i class="fa fa-car" aria-hidden="true"></i>Beeldtaal</a
+            >
+          </li>
+          <li>
+            <a href="interactie.html" class="active"
+              ><i class="fa fa-moon" aria-hidden="true"></i>Interactie</a
+            >
+          </li>
+          <li>
+            <a href="beweging.html"
+              ><i class="fa fa-fire" aria-hidden="true"></i>Beweging</a
+            >
+          </li>
+          <li>
+            <a href="meesterproef.html"
+              ><i class="fa fa-rocket" aria-hidden="true"></i>Meesterproef</a
+            >
+          </li>
+        </ul>
+      </div>
+      <!-- Aside end -->
+
+      <!-- Main content start -->
+      <div class="main-content">
+        <!-- Home section start -->
+        <section class="home section" id="home">
+          <div class="container">
+            <div class="details">
+              <a href="index.html" class="back-button">
+                <div class="back-button-pos b-icon">
+                  <p></p>
+                </div>
+              </a>
+              <h1>Interface & Interactie</h1>
+              <img
+                src="images/portfolio/outerwilds_static.PNG"
+                alt="Interactive solar system"
+                class="detailpage-banner game-banner"
+              />
+              <embed
+                src="https://lucvanderheiden.github.io/interface_interactie/"
+                style="width: 1100px; height: 600px"
+                class="game-embed"
+              />
+              <ul class="property-list">
+                <li>Beschrijving</li>
+              </ul>
+              <p class="portfolio-description">
+                I was given only one week to code an interactive timeline of any
+                kind. The intended subject for this timeline was to be an
+                existing character or product. I choose to make my timeline
+                about one of my favorite videogames: Outer Wilds. Instead of an
+                actual timeline I made an interactive map of the solar system as
+                it is in the game.
+              </p>
+              <p>
+                My goal during the making of the project was to rely as little
+                as possible on the use of images. Normally this is something I
+                very quickly gravitate towards, but now I wanted to see how much
+                of the visuals I could create by simply using HTML and CSS. This
+                worked out fairly well as only places were images are used are
+                in the information windows and in the introduction screen.
+                Everything else you see, the starry background, the planets and
+                their orbits were all simply created using code.
+              </p>
+              <p>
+                It was a lot of fun to work on this project. Everything came
+                together very well and the end product is a simple but effective
+                introduction into the world (or solar sytem) of the Outer Wilds
+                videogame.
+              </p>
+              <p>
+                <b>The following contains mild spoilers for Outer Wilds:</b
+                ><br />
+                The reason I choose to make the Outer Wilds solar system is that
+                in the game you are stuck in a short 22-minute timeloop. Within
+                this timeloop certain celestial bodies in the solar sytem
+                undergo large changes. The most prominent one is the sun
+                continuously growing until it gets to heavy and subsequently
+                collapsing in on itself and causing a supernova. This marks the
+                end of another loop. Some other planets also undergo changes and
+                all these changes I've tried incorporating into this simulated
+                version of the solar system, with a shortened version of the
+                timeloop, making this a true timeline.
+              </p>
+              <a
+                href="https://lucvanderheiden.github.io/interface_interactie/"
+                target="_blank"
+                ><button class="btn">Bekijk de volledige website</button></a
+              >
+              <div class="image-gallery">
+                <h2>Afbeeldingen</h2>
+                <img
+                  src="images/ow/zerostate.PNG"
+                  alt="Interactive solar system zero state"
+                />
+                <img
+                  src="images/ow/system.PNG"
+                  alt="Interactive solar system"
+                />
+                <img
+                  src="images/ow/info.PNG"
+                  alt="Interactive solar system information window"
+                />
+                <img
+                  src="images/ow/system2.PNG"
+                  alt="Interactive solar system"
+                />
+                <img
+                  src="images/ow/supernova.PNG"
+                  alt="Interactive solar system supernova"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Home section end -->
+      </div>
+      <!-- Main content end -->
+    </div>
+    <!-- Main container end -->
+    <!-- Light/Dark Switcher Start -->
+    <div class="style-switcher">
+      <div class="day-night s-icon">
+        <i class="fas"></i>
+      </div>
+    </div>
+    <!-- Light/Dark Switcher End -->
+    <!-- Javascript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
