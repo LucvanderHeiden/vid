@@ -616,6 +616,10 @@ PORTFOLIO
   transition: 0.3s;
 }
 
+.grid-row2 {
+  grid-row: span 2;
+}
+
 /* .portfolio .portfolio-item-inner .portfolio-img img:hover {
   opacity: 0;
 } */
